@@ -42,7 +42,7 @@ import memeportfolio_http as memeportfolio
 ```
 
 `memeportfolio_http` opens a **new streamable-HTTP connection per call** (HTTP is stateless —
-no persistent session is needed, unlike ChainAware's SSE approach).
+no persistent session is needed).
 Uses a shared background event loop thread to drive the async MCP client.
 
 Exposes:
